@@ -43,10 +43,10 @@ class Pawn:
             if occButDif(self.pos, move, self.player, board):
                 self.possible_moves.append(move)
         if DIR == 1:
-            if self.pos[0] == 1 and isClear(self.pos, move, board):
+            if self.pos[0] == 1 and isClear(self.pos, (2 * DIR, 0), board):
                 self.possible_moves.append((2 * DIR, 0))
         else:
-            if self.pos[0] == 6 and isClear(self.pos, move, board):
+            if self.pos[0] == 6 and isClear(self.pos, (2 * DIR, 0), board):
                 self.possible_moves.append((2 * DIR, 0))
         ret = []
         for each in self.possible_moves:
@@ -54,6 +54,7 @@ class Pawn:
             j = each[1] + self.pos[1]
             ret.append((i, j))
         self.possible_moves = ret
+        print(self.possible_moves)
         return self.possible_moves
 
 
@@ -267,7 +268,7 @@ class Board:
                     piece_locations.append(r.pos)
         return piece_locations
 
-    def move_piece(self, move, player):
+    def move_piece(self, move, player):  #
         # Piece + Location + "+" (if check)
         move.replace("x", "")
         move.replace("X", "")
@@ -292,18 +293,21 @@ class Board:
                 CL = possible_movers[0]
             self.move_to(CL, NL)
 
-        elif len(move) == 5:
+        elif len(move) == 4:
             # Disambiguation Move: piece, currentLocation, newLocation
-            P = move[0]
-            CL = chess_to_matrix(move[1] + move[2])
-            NL = chess_to_matrix(move[3] + move[4])
-            M = self.chessboard[CL[0]][CL[1]].get_possible_moves(self.chessboard)
-            if NL in M:
+            CL = chess_to_matrix(move[0] + move[1])
+            NL = chess_to_matrix(move[2] + move[3])
+            M = self.chessboard[CL[0]][CL[1]]
+            if M == 'X':
+                N = []
+            else:
+                N = self.chessboard[CL[0]][CL[1]].get_possible_moves(self.chessboard)
+            if NL in N:
                 self.move_to(CL, NL)
             else:
                 print("Bad Move")
                 return False
-        return True
+        return M.p_id
 
     def move_to(self, CL, NL):
         # CL = current location
