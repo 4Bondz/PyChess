@@ -46,7 +46,7 @@ class Pawn:
             if self.pos[0] == 1 and isClear(self.pos, move, board):
                 self.possible_moves.append((2 * DIR, 0))
         else:
-            if self.pos[0] == 6 and isClear(self.pos, move, self.player, board):
+            if self.pos[0] == 6 and isClear(self.pos, move, board):
                 self.possible_moves.append((2 * DIR, 0))
         ret = []
         for each in self.possible_moves:
@@ -55,7 +55,6 @@ class Pawn:
             ret.append((i, j))
         self.possible_moves = ret
         return self.possible_moves
-
 
 
 class Knight:
@@ -304,6 +303,7 @@ class Board:
             else:
                 print("Bad Move")
                 return False
+        return True
 
     def move_to(self, CL, NL):
         # CL = current location
@@ -322,28 +322,25 @@ class Board:
                           .chessboard[y][x].p_id, end="")
             print("")
 
-        pass
-
-
-
-
-
-
 
 def startgame():
     B = Board()
-
     while True:
         w = input("White to Move: ")
-        B.move_piece(w, 'w')
-
-
+        x = B.move_piece(w, 'w')
+        while not x:
+            w = input("White to Move: ")
+            x = B.move_piece(w, 'w')
+        b = input("Black to Move: ")
+        y = B.move_piece(b, 'b')
+        while not y:
+            b = input("Black to Move: ")
+            y = B.move_piece(b, 'b')
 
 
 def main():
     startgame()
-
-    '''
+    '''w
     for y in range(0, 8):
         for x in range(0, 8):
             if B.chessboard[y][x] == "X":
