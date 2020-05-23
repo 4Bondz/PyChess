@@ -252,8 +252,8 @@ class Board:
         self.chessboard[row].append(Rook(row, 0, 'b'))
         self.chessboard[row].append(Knight(row, 1, 'b'))
         self.chessboard[row].append(Bishop(row, 2, 'b'))
-        self.chessboard[row].append(King(row, 3, 'b'))
-        self.chessboard[row].append(Queen(row, 4, 'b'))
+        self.chessboard[row].append(Queen(row, 3, 'b'))
+        self.chessboard[row].append(King(row, 4, 'b'))
         self.chessboard[row].append(Bishop(row, 5, 'b'))
         self.chessboard[row].append(Knight(row, 6, 'b'))
         self.chessboard[row].append(Rook(row, 7, 'b'))
@@ -298,7 +298,7 @@ class Board:
             CL = chess_to_matrix(move[0] + move[1])
             NL = chess_to_matrix(move[2] + move[3])
             M = self.chessboard[CL[0]][CL[1]]
-            if M == 'X':
+            if M == 'X' or M.player != player:
                 N = []
             else:
                 N = self.chessboard[CL[0]][CL[1]].get_possible_moves(self.chessboard)
@@ -319,11 +319,11 @@ class Board:
 
         for y in range(0, 8):
             for x in range(0, 8):
-                if self.chessboard[y][x] == "X":
+                if self.chessboard[7-y][x] == "X":
                     print("X", end="")
                 else:
                     print(self
-                          .chessboard[y][x].p_id, end="")
+                          .chessboard[7-y][x].p_id, end="")
             print("")
 
 
@@ -344,18 +344,6 @@ def startgame():
 
 def main():
     startgame()
-    '''w
-    for y in range(0, 8):
-        for x in range(0, 8):
-            if B.chessboard[y][x] == "X":
-                print("X", end="")
-            else:
-                print(B.chessboard[y][x].p_id, end="")
-        print("")
-
-    print(B.get_all_locations('K', 'w'))
-    '''
-
     print("Done")
 
 

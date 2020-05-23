@@ -5,7 +5,7 @@ import time
 import math
 
 root = Tk()
-root.title("Chess")
+root.title("Technically Chess")
 
 loc = os.getcwd()
 print(loc)
@@ -19,6 +19,7 @@ turn = 'w'
 board = []
 hold = []
 
+
 def test():
     pass
 
@@ -27,7 +28,7 @@ pieces = ["./BlackBishop.png", "./BlackKing.png", "./BlackKnight.png", "./BlackP
           "./BlackRook.png", "./WhiteBishop.png", "./WhiteKing.png", "./WhiteKnight.png", "./WhitePawn.png",
           "./WhiteQueen.png", "./WhiteRook.png"]
 
-short_pieces  = {"P":"Pawn", "Q":"Queen", "B":"Bishop", "R":"Rook", "N":"Knight", "K":"King"}
+short_pieces = {"P": "Pawn", "Q": "Queen", "B": "Bishop", "R": "Rook", "N": "Knight", "K": "King"}
 
 names = ["bBishop", "bKing", "bKnight", "bPawn", "bQueen", "bRook", "wBishop", "wKing", "wKnight", "wPawn",
          "wQueen", "wRook"]
@@ -63,10 +64,14 @@ def onclick(val):
             MT = "./empty.png"
             DSTp = PhotoImage(file=DST).subsample(2, 2)
             MTp = PhotoImage(file=MT).subsample(2, 2)
+
+            # Global Reference to prevent garbage collection
             hold.append(DSTp)
             hold.append(MTp)
+
             board[8 - DST_l][DST_n].configure(image=DSTp)
             board[8 - SRC_l][SRC_n].configure(image=MTp)
+            print(DST)
             # TODO : GET The piece from somewhere
             # TODO : Load up that piece into the SRC square
             #
@@ -148,12 +153,11 @@ def main():
 
     wQueen = piece_images["wQueen"]
     wQueenp = PhotoImage(file=wQueen).subsample(2, 2)
-    board[7][4].configure(image=wQueenp)
+    board[7][3].configure(image=wQueenp)
 
     wKing = piece_images["wKing"]
     wKingp = PhotoImage(file=wKing).subsample(2, 2)
-    board[7][3].configure(image=wKingp)
-
+    board[7][4].configure(image=wKingp)
 
     label = Label(root)
     label.images = [[], [], []]
@@ -173,22 +177,11 @@ def main():
         label.images[2].append(PhotoImage(file=bempty).subsample(2, 2))
         board[2 + (q // 8)][q % 8].configure(image=label.images[2][q])
 
-    while True:
-        root.update_idletasks()
-        root.update()
+    root.mainloop()
+    #while True:
+    #    root.update_idletasks()
+    #    root.update()
 
-    '''while True:
-        w = input("White to Move: ")
-        x = B.move_piece(w, 'w')
-        while not x:
-            w = input("White to Move: ")
-            x = B.move_piece(w, 'w')
-        b = input("Black to Move: ")
-        y = B.move_piece(b, 'b')
-        while not y:
-            b = input("Black to Move: ")
-            y = B.move_piece(b, 'b')
-'''
 
 
 # while True:
