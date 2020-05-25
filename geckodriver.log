@@ -1,0 +1,788 @@
+1590270620193	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofileMkdD3D"
+1590270660600	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofile3DDVav"
+1590270660904	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590270661202	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590270661202	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590270661202	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590270661202	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590270663151	Marionette	INFO	Listening on port 51432
+1590270663325	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.dominos.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.dominos.com"
+1590271256894	Marionette	INFO	Stopped listening on port 51432
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1590271261786	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofileVRw55e"
+1590271262068	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590271262357	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590271262357	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590271262357	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590271262357	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590271264281	Marionette	INFO	Listening on port 53447
+1590271264496	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 174: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: "getApplied@resource://devtools/server/actors/styles.js:587:5\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@r1590271436440	Marionette	INFO	Stopped listening on port 53612
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ations@resource://devtools/client/fronts/walker.js:402:10
+
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+1590271434021	Marionette	INFO	Stopped listening on port 53447
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1590271437761	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofile4BrHHY"
+1590271438095	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590271438394	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590271438394	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590271438395	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590271438395	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590271440299	Marionette	INFO	Listening on port 54222
+1590271440473	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590271649366	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofilefdio9R"
+1590271649651	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590271649935	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590271649935	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590271649935	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590271649935	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590271651771	Marionette	INFO	Listening on port 55018
+1590271652077	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590271683091	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofileiR32Hg"
+1590271683372	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590271683662	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590271683662	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590271683662	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590271683662	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590271685533	Marionette	INFO	Listening on port 55209
+1590271685802	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+1590271726235	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofileVkZUJi"
+1590271726519	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590271726815	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590271726815	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590271726815	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590271726815	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590271728856	Marionette	INFO	Listening on port 55455
+1590271728946	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.dominos.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 127: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.dominos.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 127: TypeError: gRecipeManager is null
+1590271843366	Marionette	INFO	Stopped listening on port 55455
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1590271847203	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofilev9xmDd"
+1590271847478	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590271847762	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590271847762	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590271847762	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590271847762	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590271849644	Marionette	INFO	Listening on port 55961
+1590271849922	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590271893591	Marionette	INFO	Stopped listening on port 55961
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1590271897156	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofileJ5ysuJ"
+1590271897442	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590271897739	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590271897739	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590271897739	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590271897739	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590271899585	Marionette	INFO	Listening on port 56236
+1590271899890	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590271927255	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofilea5PAOX"
+1590271927531	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590271927829	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590271927829	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590271927830	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590271927830	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590271929676	Marionette	INFO	Listening on port 56426
+1590271929963	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590272029871	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofileJpVnTX"
+1590272030158	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590272030459	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590272030459	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590272030459	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590272030459	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590272032310	Marionette	INFO	Listening on port 56848
+1590272032583	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590272038761	Marionette	INFO	Stopped listening on port 56848
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1590272043344	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofilevhxJZx"
+1590272043643	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590272043933	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590272043934	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590272043934	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590272043934	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590272045888	Marionette	INFO	Listening on port 56989
+1590272046058	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590272072829	Marionette	INFO	Stopped listening on port 56989
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+n.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590272067454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590272067454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590272067454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590272067454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590272069380	Marionette	INFO	Listening on port 57164
+1590272069596	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590272130771	Marionette	INFO	Stopped listening on port 57164
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1590272134426	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofileqpe6B1"
+1590272134722	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590272135023	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590272135023	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590272135023	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590272135023	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590272137069	Marionette	INFO	Listening on port 57530
+1590272137139	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:402:10
+
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/styles.js:944:5\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2247))
+console.error: (new Error("Protocol error (unknownError): node is null from: server0.conn0.child2/pagestyle25", "resource://devtools/shared/protocol/Front.js", 319))
+1590272201866	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofileA54DiV"
+1590272202158	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590272202443	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590272202443	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590272202443	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590272202443	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590272204386	Marionette	INFO	Listening on port 57850
+1590272204575	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590272208343	Marionette	INFO	Stopped listening on port 57850
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1590272247430	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofileZBVoNf"
+1590272247715	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590272248010	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590272248010	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590272248010	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590272248010	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590272249872	Marionette	INFO	Listening on port 58102
+1590272250140	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590272269486	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofileJyZ53Q"
+1590272269776	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590272270095	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590272270095	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590272270095	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590272270096	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590272272003	Marionette	INFO	Listening on port 58282
+1590272272195	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590272485319	Marionette	INFO	Stopped listening on port 58282
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+n.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590272317327	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590272317327	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590272317327	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590272317327	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590272319214	Marionette	INFO	Listening on port 58545
+1590272319482	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:402:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2247))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2247))
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/styles.js:944:5\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: (new Error("Protocol error (unknownError): node is null from: server0.conn0.child2/pagestyle25", "resource://devtools/shared/protocol/Front.js", 319))
+1590272485064	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofile4Lqcpj"
+1590272485367	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590272485672	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590272485673	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission:1590272635005	Marionette	INFO	Stopped listening on port 58545
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+sion permission: resource://pdf.js/
+1590272485673	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590272487509	Marionette	INFO	Listening on port 59263
+1590272487774	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590272525158	Marionette	INFO	Stopped listening on port 59263
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1590272529661	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofilerWZUU4"
+1590272529942	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590272530250	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590272530250	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590272530250	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590272530250	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590272532184	Marionette	INFO	Listening on port 59545
+1590272532418	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590272564350	Marionette	INFO	Stopped listening on port 59545
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1590272568113	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofilenCCqOU"
+1590272568390	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590272568691	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590272568691	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590272568691	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590272568691	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590272570555	Marionette	INFO	Listening on port 59778
+1590272570823	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590272635522	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofilec2JX7R"
+1590272635810	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590272636108	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590272636108	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590272636108	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590272636108	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590272637964	Marionette	INFO	Listening on port 60076
+1590272638238	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:402:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2247))
+JavaScript error: https://www.paypal.com/webapps/hermes/button?env=production&style.color=gold&style.height=50&style.layout=horizontal&style.shape=rect&style.size=responsive&style.tagline=false&domain=www.dominos.com&sessionID=0faa309dd0_mji6mjq6ntu&buttonSessionID=8509533833_mji6mju6mda&funding.disallowed=venmo&locale.x=en_US&logLevel=warn&sdkMeta=eyJ1cmwiOiJodHRwczovL3d3dy5wYXlwYWxvYmplY3RzLmNvbS9hcGkvY2hlY2tvdXQuNC4wLjI4NS5qcyJ9&uid=0120831c83&version=4.0.285&xcomponent=1, line 1197: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.paypal.com/webapps/hermes/button?env=production&style.color=gold&style.height=50&style.layout=horizontal&style.shape=rect&style.size=responsive&style.tagline=false&domain=www.dominos.com&sessionID=0faa309dd0_mji6mjq6ntu&buttonSessionID=351f4603ca_mji6mju6mdc&funding.disallowed=venmo&locale.x=en_US&logLevel=warn&sdkMeta=eyJ1cmwiOiJodHRwczovL3d3dy5wYXlwYWxvYmplY3RzLmNvbS9hcGkvY2hlY2tvdXQuNC4wLjI4NS5qcyJ9&uid=33bd5fd435&version=4.0.285&xcomponent=1, line 1197: NS_ERROR_NOT_INITIALIZED: 
+1590272741146	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofileBb5mm7"
+1590272741426	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590272741724	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590272741724	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590272741724	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590272741725	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590272743619	Marionette	INFO	Listening on port 60547
+1590272743859	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590272769401	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofileEVspvW"
+1590272769688	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590272769989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590272769989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590272769989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590272769990	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590272771883	Marionette	INFO	Listening on port 60767
+1590272772118	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590272797786	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofilefWUvot"
+1590272798068	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590272798356	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590272798356	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590272798356	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590272798356	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590272800206	Marionette	INFO	Listening on port 60965
+1590272800496	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:402:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2247))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2247))
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 531: TypeError: this._refMap is null
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 531: TypeError: this._refMap is null
+1590272969643	Marionette	INFO	Stopped listening on port 60965
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1590272974080	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofilecEYcm0"
+1590272974357	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590272974645	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590272974646	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590272974646	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590272974646	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590272976494	Marionette	INFO	Listening on port 61691
+1590272976790	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590272988526	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1590273008691	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofile6TlAqE"
+1590273008970	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590273009272	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590273009272	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590273009272	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590273009272	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590273011174	Marionette	INFO	Listening on port 61932
+1590273011404	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590273044232	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofileHz7vVF"
+1590273044518	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590273044813	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590273044813	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590273044813	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590273044813	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590273046748	Marionette	INFO	Listening on port 62178
+1590273046941	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590273061408	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofilekSh1NM"
+1590273061691	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590273061984	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590273061984	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590273061984	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590273061984	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590273063874	Marionette	INFO	Listening on port 49981
+1590273064116	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590273123872	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\bonds\\AppData\\Local\\Temp\\rust_mozprofileHs3x7e"
+1590273124148	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590273124436	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590273124436	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590273124436	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590273124436	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590273126276	Marionette	INFO	Listening on port 50336
+1590273126583	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.dominos.com"
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/devtools-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+Handler function threw an exception: TypeError: can't access dead object
+Stack: destroy@resource://devtools/server/actors/stylesheets.js:117:7
+destroy@resource://devtools/shared/protocol/Pool.js:189:17
+destroy@resource://devtools/shared/protocol/Actor.js:76:11
+destroy@resource://devtools/server/actors/stylesheets.js:326:38
+destroy@resource://devtools/shared/protocol/Pool.js:189:17
+_detach@resource://devtools/server/actors/targets/browsing-context.js:962:35
+exit@resource://devtools/server/actors/targets/browsing-context.js:558:10
+frameTargetPrototype.exit@resource://devtools/server/actors/targets/frame.js:82:45
+destroy@resource://devtools/server/actors/targets/browsing-context.js:539:10
+removeActor@resource://devtools/server/actors/common.js:63:13
+APDestroy@resource://devtools/server/actors/common.js:28:12
+onClosed/<@resource://devtools/server/devtools-server-connection.js:477:37
+onClosed@resource://devtools/server/devtools-server-connection.js:477:22
+close@resource://devtools/shared/transport/child-transport.js:62:16
+close@resource://devtools/server/devtools-server-connection.js:86:23
+onDisconnect<@resource://devtools/server/startup/frame.js:145:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+Line: 117, column: 7
+console.error: (new TypeError("can't access dead object", "resource://devtools/server/actors/stylesheets.js", 117))
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 531: TypeError: this._refMap is null
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.0/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 52: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.0/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200519/r20110914/client/qs_click_protection_fy2019.js, line 11: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200519/r20110914/client/qs_click_protection_fy2019.js, line 11: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 52: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt_v3l/202005111129/wrap.js, line 8: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt_v3l/202005111129/wrap.js, line 8: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt_v3l/202005111129/wrap.js, line 8: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt_v3l/202005111129/wrap.js, line 8: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt_v3l/202005111129/wrap.js, line 8: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt_v3l/202005111129/wrap.js, line 8: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt_v3l/202005111129/wrap.js, line 8: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt_v3l/202005111129/wrap.js, line 8: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt_v3l/202005111129/wrap.js, line 8: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt_v3l/202005111129/wrap.js, line 8: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt_v3l/202005111129/wrap.js, line 8: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt_v3l/202005111129/wrap.js, line 8: unreachable code after return statement
+JavaScript warning: https://confiant-integrations.global.ssl.fastly.net/gpt_v3l/202005111129/wrap.js, line 8: unreachable code after return statement
+JavaScript error: data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=, line 1: SyntaxError: illegal character
+JavaScript error: data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=, line 1: SyntaxError: illegal character
+JavaScript error: data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=, line 1: SyntaxError: illegal character
+JavaScript error: data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=, line 1: SyntaxError: illegal character
+JavaScript error: data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=, line 1: SyntaxError: illegal character
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://eus.rubiconproject.com/usync.html?p=33across&endpoint=us-east, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?p=unruly&endpoint=us-east, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?us_privacy=1---, line 12: SecurityError: The operation is insecure.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.0/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 52: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.0/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 52: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200519/r20110914/client/qs_click_protection_fy2019.js, line 11: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://tpc.googlesyndication.com/pagead/js/r20200519/r20110914/client/qs_click_protection_fy2019.js, line 11: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 52: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 52: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://www.ultratools.com/js/cdnlP_GAneustar.js, line 1140: unreachable code after return statement
+JavaScript warning: https://www.ultratools.com/js/cdnlP_GAneustar.js, line 1140: unreachable code after return statement
+JavaScript warning: https://www.ultratools.com/js/cdnlP_GAneustar.js, line 1140: unreachable code after return statement
+JavaScript warning: https://www.ultratools.com/js/cdnlP_GAneustar.js, line 1140: unreachable code after return statement
+JavaScript warning: https://www.ultratools.com/js/cdnlP_GAneustar.js, line 1140: unreachable code after return statement
+JavaScript warning: https://www.ultratools.com/js/cdnlP_GAneustar.js, line 1140: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.dominos.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 127: TypeError: gRecipeManager is null
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+ContentScriptContextChild@resource://gre/modules/ExtensionContent.jsm:840:10
+getContext@resource://gre/modules/ExtensionContent.jsm:1108:17
+getContext@resource://gre/modules/ExtensionChild.jsm:659:29
+injectInto@resource://gre/modules/ExtensionContent.jsm:440:34
+executeInWin@resource://gre/modules/ExtensionContent.jsm:1187:23
+handleExtensionExecute@resource://gre/modules/ExtensionContent.jsm:1194:24
+receiveMessage@resource://gre/modules/ExtensionContent.jsm:1276:21
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:571:21
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:571:21
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:567:25
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:567:25
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:567:25
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:567:25
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:567:25
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:567:25
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:567:25
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:567:25
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:567:25
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:567:25
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:567:25
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:567:25
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:567:25
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:567:25
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:567:25
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:567:25
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:567:25
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:567:25
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:567:25
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+DBG-SERVER threw an exception: TypeError: thread is null
+Stack: initialize@resource://devtools/server/actors/source.js:107:5
+cls@resource://devtools/shared/protocol/Actor.js:221:25
+source@resource://devtools/server/actors/utils/TabSources.js:135:19
+createSourceActor@resource://devtools/server/actors/utils/TabSources.js:364:17
+_addSource@resource://devtools/server/actors/thread.js:1924:34
+onNewScript@resource://devtools/server/actors/thread.js:1879:10
+inject@resource://gre/modules/ExtensionContent.jsm:567:25
+Line: 107, column: 5
+console.error: (new TypeError("thread is null", "resource://devtools/server/actors/source.js", 107))
+JavaScript error: resource://devtools/server/startup/worker.js, line 37: NetworkError: WorkerDebuggerGlobalScope.loadSubScript: Failed to load worker script at resource://devtools/shared/worker/loader.js (nsresult = 0x805e0006)
+JavaScript warning: resource://devtools/client/shared/demangle.js, line 0: Successfully compiled asm.js code (total compilation time 58ms)
+JavaScript error: https://eus.rubiconproject.com/usync.html?p=33across&endpoint=us-east, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?p=33across&endpoint=us-east, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+console.error: "Error sending event: display-change"
+console.error: ({})
+[Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIEventListenerService.getListenerInfoFor]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://devtools/server/actors/inspector/event-collector.js :: getDOMListeners :: line 266"  data: no]: getDOMListeners@resource://devtools/server/actors/inspector/event-collector.js:266:22
+getListeners@resource://devtools/server/actors/inspector/event-collector.js:334:28
+hasListeners@resource://devtools/server/actors/inspector/event-collector.js:227:17
+hasEventListeners@resource://devtools/server/actors/inspector/event-collector.js:800:21
+get _hasEventListeners@resource://devtools/server/actors/inspector/node.js:459:33
+form@resource://devtools/server/actors/inspector/node.js:262:7
+write@resource://devtools/shared/protocol/types.js:363:32
+types.addArrayType/write/<@resource://devtools/shared/protocol/types.js:220:33
+write@resource://devtools/shared/protocol/types.js:220:16
+write@resource://devtools/shared/protocol/Request.js:117:22
+write@resource://devtools/shared/protocol/Request.js:43:26
+_sendEvent@resource://devtools/shared/protocol/Actor.js:66:24
+initialize/<@resource://devtools/shared/protocol/Actor.js:46:16
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+_onReflows@resource://devtools/server/actors/inspector/walker.js:608:12
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+_startEventLoop@resource://devtools/server/actors/reflow.js:315:12
+notify@resource://gre/modules/Timer.jsm:62:17
+
+JavaScript error: https://cdn.userreplay.net/us10665a104564f6fb87ed55b85584b76fa_shop_prod_ct.js, line 12: TypeError: e.urPayload.requestHeaders.join is not a function
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:402:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2247))
+JavaScript error: resource://devtools/client/shared/telemetry.js, line 150: Error: TelemetryStopwatch: requesting elapsed time for nonexisting stopwatch. Histogram: "DEVTOOLS_FLEXBOX_HIGHLIGHTER_TIME_ACTIVE_SECONDS", key: ""
+console.error: "isValidHoverTarget rejected with unexpected reason:"
+console.error: (new TypeError("rule is undefined", "resource://devtools/client/inspector/rules/utils/utils.js", 186))
+console.error: "isValidHoverTarget rejected with unexpected reason:"
+console.error: (new TypeError("rule is undefined", "resource://devtools/client/inspector/rules/utils/utils.js", 186))
+console.error: (new TypeError("this.rule.textProps[0].editor is undefined", "resource://devtools/client/inspector/rules/views/rule-editor.js", 800))
+console.error: (new TypeError("this.rule.textProps[0].editor is undefined", "resource://devtools/client/inspector/rules/views/rule-editor.js", 800))
+console.error: (new TypeError("this.rule.textProps[0].editor is undefined", "resource://devtools/client/inspector/rules/views/rule-editor.js", 800))
+console.error: (new TypeError("this.rule.textProps[0].editor is undefined", "resource://devtools/client/inspector/rules/views/rule-editor.js", 800))
+console.error: (new TypeError("this.rule.textProps[0].editor is undefined", "resource://devtools/client/inspector/rules/views/rule-editor.js", 800))
+JavaScript error: resource://devtools/shared/protocol/Front/FrontClassWithSpec.js, line 29: Error: Can not send request 'setNodeValue' because front 'domnode' is already destroyed.
+console.error: "Error while calling actor 'workerTarget's method 'connect'" "this.transport is null"
+console.error: "send@resource://devtools/server/devtools-server-connection.js:91:5\nsendReturn@resource://devtools/shared/protocol/Actor.js:180:16\n"
+JavaScript error: resource://devtools/server/devtools-server-connection.js, line 91: TypeError: this.transport is null
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?p=33across&endpoint=us-east, line 12: SecurityError: The operation is insecure.
+1590274982336	Marionette	INFO	Stopped listening on port 50336
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

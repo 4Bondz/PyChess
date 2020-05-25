@@ -1,0 +1,26 @@
+import string as s
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+import time
+import itertools
+
+
+
+
+driver = webdriver.Firefox()
+
+driver.get("https://www.dominos.com/en/pages/order/#!/locations/search/")
+time.sleep(3)
+
+# Entry point for loop
+
+
+tot = s.ascii_letters + s.digits
+print(s.ascii_letters + s.digits)
+for i in range(7):
+    res = itertools.permutations(tot,i) # 3 is the length of your result.
+    for i in res:
+       msg = ''.join(i)
+       # Send message
+       # Clear BAD ->
+
